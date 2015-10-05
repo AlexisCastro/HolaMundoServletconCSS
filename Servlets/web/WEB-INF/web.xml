@@ -1,5 +1,5 @@
 <web-app>
-    <!--mapeo del primer servlet: Hola mundo -->
+    <!--mapeo del primer servlet: Hola mundo  -->
     <servlet>
         <servlet-name>ServletHolaMundo</servlet-name>
         <servlet-class>servletHTML.ServletHolaMundo</servlet-class>
@@ -8,7 +8,7 @@
         <servlet-name>ServletHolaMundo</servlet-name>
         <url-pattern>/ServletHolaMundo</url-pattern>
     </servlet-mapping>
-    
+   
      <!--mapeo del segundo servlet: formulario -->
       <servlet>
         <servlet-name>ServletFormulario</servlet-name>

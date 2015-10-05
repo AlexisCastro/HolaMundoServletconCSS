@@ -4,8 +4,10 @@ package servletHTML;
 
 import java.io.*;
 import javax.servlet.*;
+//import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
+//@WebServlet(name = "ServletHolaMundo", urlPatterns = {"/ServletHolaMundo"})
 public class ServletHolaMundo extends HttpServlet {
 
     public void doGet(HttpServletRequest req, HttpServletResponse res)
